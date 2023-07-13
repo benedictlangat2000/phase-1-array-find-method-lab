@@ -1,1 +1,6 @@
-// code your solution here
+// code your solution
+function superbowlWin(array) {
+    const win = array.find(obj => obj.result === "W");
+    return win ? win.year : undefined;
+  }
+  
